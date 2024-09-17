@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "simple_quarto_website",
@@ -14,32 +21,11 @@
     "text": "Comparison\n\nCR7 is absolutely better than LM10.\n\nCR7 scored more goals.\nCR7 played for vairous teams.\nCR7 wins for UCL Champions.\n\n\n\nConclusion\nCR7 is the GOAT!!!\n\nDemonstration of pipe table syntax\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html#math-equation-example",
     "href": "index.html#math-equation-example",
     "title": "simple_quarto_website",
     "section": "Math Equation Example",
     "text": "Math Equation Example\nThis is an example of an inline math equation:\\(y = x^2\\).\nThis is an example of an non-inline math equation: \\[\n\\int_{a}^{b} f(x) dx = F(b) - F(a)\n\\]"
-  },
-  {
-    "objectID": "index.html#footnotes",
-    "href": "index.html#footnotes",
-    "title": "simple_quarto_website",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nThis is the footnote text.↩︎"
-  },
-  {
-    "objectID": "index.html#footnote-example",
-    "href": "index.html#footnote-example",
-    "title": "simple_quarto_website",
-    "section": "Footnote Example",
-    "text": "Footnote Example\nThis is an example with a footnote1.\n\nReferences\n(Virlics 2013)"
   },
   {
     "objectID": "index.html#cr7-quote",
@@ -70,17 +56,38 @@
     "text": "Mermaid Diagram\n\n\n\n\n\nsequenceDiagram\n  participant Alice\n  participant Bob\n  Alice-&gt;&gt;John: Hello John, how are you?\n  loop Healthcheck\n    John-&gt;&gt;John: Fight against hypochondria\n  end\n  Note right of John: Rational thoughts &lt;br/&gt;prevail!\n  John--&gt;&gt;Alice: Great!\n  John-&gt;&gt;Bob: How about you?\n  Bob--&gt;&gt;John: Jolly good!"
   },
   {
-    "objectID": "index.html#citation",
-    "href": "index.html#citation",
+    "objectID": "index.html#footnote-example",
+    "href": "index.html#footnote-example",
     "title": "simple_quarto_website",
-    "section": "Citation",
-    "text": "Citation\n@article{virlics2013investment, title={Investment decision making and risk}, author={Virlics, Agnes}, journal={Procedia Economics and Finance}, volume={6}, pages={169–177}, year={2013}, publisher={Elsevier} }"
+    "section": "Footnote Example",
+    "text": "Footnote Example\nThis is an example with a footnote1.\n\nReferences\n(Virlics 2013)"
   },
   {
-    "objectID": "index.html#references",
-    "href": "index.html#references",
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
     "title": "simple_quarto_website",
-    "section": "References",
-    "text": "References\n(Virlics 2013)"
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is the footnote text.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#introduction",
+    "href": "slides/slides.html#introduction",
+    "title": "My Presentation",
+    "section": "Introduction",
+    "text": "Introduction\nWelcome to this presentation! This slide will provide an overview.\n\nFirst point\nSecond point\n\nBased on research from (Virlics 2013)."
+  },
+  {
+    "objectID": "slides/slides.html#images",
+    "href": "slides/slides.html#images",
+    "title": "My Presentation",
+    "section": "Images",
+    "text": "Images\nHere are two example images:"
+  },
+  {
+    "objectID": "slides/slides.html#python-code-example",
+    "href": "slides/slides.html#python-code-example",
+    "title": "My Presentation",
+    "section": "Python Code Example",
+    "text": "Python Code Example\nLet’s look at some Python code and a plot.\n# Data for plotting\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.linspace(0, 10, 100)\ny = np.cos(x)\n\n# Creating the plot\nplt.plot(x, y, label='Cosine Wave')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.title('Cosine Wave Plot')\nplt.legend()\n\n# Display the plot\nplt.show()"
   }
 ]
