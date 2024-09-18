@@ -7,6 +7,13 @@
     "text": "About this site"
   },
   {
+    "objectID": "about.html#goals",
+    "href": "about.html#goals",
+    "title": "About",
+    "section": "Goals",
+    "text": "Goals\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.\n\nKeys\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Curabitur at lacus ac velit ornare lobortis.\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# Data for plotting\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\n# Creating the plot\nplt.plot(x, y, label='Sine Wave')\n\n# Adding labels and title\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.title('Simple Sine Wave Plot')\nplt.legend()\n\n# Displaying the plot\nplt.show()"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "simple_quarto_website",
